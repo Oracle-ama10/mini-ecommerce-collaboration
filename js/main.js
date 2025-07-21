@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     function displayProducts(products) {
-        productList.innerHTML = ''; // Clear previous list
+        productList.innerHTML = ''; //
         products.forEach(product => {
             const card = document.createElement('div');
             card.className = 'product-card';
@@ -27,7 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Inefficient Search
     searchInput.addEventListener('keyup', () => {
-        const searchTerm = searchInput.value.toLowerCase();
+        const searchTerm = searchInput.value.trim().toLowerCase();
+            if (searchTerm === ''){
+                displayProducts(allProducts);
+                return;
+            }
         const filteredProducts = allProducts.filter(product => {
             // Simple search, not very efficient
             return product.name.toLowerCase().includes(searchTerm);
