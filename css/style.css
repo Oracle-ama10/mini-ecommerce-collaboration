@@ -11,7 +11,28 @@ main {justify-content: center; padding: 1rem; }
     width: 200px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transfrom 0.5s ease, box-shadow 0.5s;
+}
+
+.product-card:hover {
+    transform: scale(1.20);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1)
 }
 .product-card img { max-width: 100%; height: auto; }
 .product-card h3 { font-size: 1.1em; }
 .product-card p { color: #888; }
+.loader {
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 1.2rem;
+    color: #4b88a1da
+} 
+
+main {display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    justify-content: center;
+    padding: 1rem;
+}

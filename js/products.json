@@ -1,6 +1,12 @@
 [
-    {"id": 1, "name": "Classic T-Shirt", "price": 499, "image": "https://placehold.co/150/FF0000/FFFFFF?text=T-Shirt"},
-    {"id": 2, "name": "Running Shoes", "price": 1200, "image": "https://placehold.co/150/0000FF/FFFFFF?text=Shoes"},
-    {"id": 3, "name": "Smart Watch", "price": 3500, "image": "https://placehold.co/150/00FF00/FFFFFF?text=Watch"},
-    {"id": 4, "name": "Denim Jeans", "price": 990, "image": "https://placehold.co/150/FFFF00/000000?text=Jeans"}
+    {"id": 1, "name": "Goldship", "price": 120000000, "image": "https://www.jbis.jp/horse/images/0001104811_1/"},
+    {"id": 2, "name": "Kitasan black", "price": 360000000, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScAkBwxBOjSH6yY_CygDLhyP2W2_pGMlErjQ&s"},
+    {"id": 3, "name": "Mejiro mcqueen", "price": 650000000, "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mejiro_McQueen_20020722.jpg"},
+    {"id": 4, "name": "Agnes tachyon", "price": 230000000, "image": "https://static.wikia.nocookie.net/umamusume/images/0/08/IRL_Agnes_Tachyon.jpg/revision/latest?cb=20240727001548"},
+    {"id": 5, "name": "Taiki shuttle", "price": 530000000, "image": "https://static.wikia.nocookie.net/umamusume/images/4/47/IRL_Taiki_Shuttle.jpg/revision/latest?cb=20240707225041"},
+    {"id": 6, "name": "Manhattan cafe", "price": 250000000, "image": "https://static.wikia.nocookie.net/umamusume/images/9/97/IRL_Manhattan_Cafe.jpg/revision/latest?cb=20240707181532"},
+    {"id": 7, "name": "Tokai teio", "price": 770000000, "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Tokai_Teio_20000923F01.jpg"},
+    {"id": 8, "name": "Special week", "price": 820000000, "image": "https://www.jbis.jp/horse/images/0000293624_1/"},
+    {"id": 9, "name": "Mihono bourbon", "price": 990000000, "image": "https://static.wikia.nocookie.net/umamusume/images/5/52/IRL_Mihono_Bourbon.jpg/revision/latest?cb=20240707221243"},
+    {"id": 10, "name": "Orfevre", "price": 1000000000, "image": "https://static.wikia.nocookie.net/umamusume/images/7/79/IRL_Orfevre.jpg/revision/latest?cb=20240726233730"}
 ]
